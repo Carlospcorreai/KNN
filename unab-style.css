@@ -1,0 +1,43 @@
+/* Tamaño base de fuente aumentado */
+.reveal {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px; /* Aumenta el tamaño de fuente base */
+  background-color: #f8f9fa; /* Fondo claro */
+  color: #333333; /* Texto oscuro */
+}
+
+/* Ajuste de tamaño automático en relación al tamaño de la pantalla */
+.reveal .slides section {
+  font-size: calc(1vw + 1vh + 0.8vmin); /* Aumenta el tamaño general de la fuente */
+  text-align: left; /* Alinea el texto al lado izquierdo */
+}
+
+/* Tamaño de fuente aumentado para listas */
+.reveal ul {
+  font-size: 1.1em; /* Aumenta el tamaño de fuente de listas */
+  line-height: 1.6; /* Mejora la legibilidad */
+}
+
+/* Tamaños específicos para encabezados */
+.reveal h1 {
+  font-size: 2.2em; /* Aumenta el tamaño de h1 */
+  color: #b81d10; /* Rojo UNAB */
+  font-weight: bold;
+}
+
+.reveal h2 {
+  font-size: 1.8em; /* Aumenta el tamaño de h2 */
+  color: #2e4057; /* Azul oscuro UNAB */
+  font-weight: bold;
+}
+
+.reveal h3 {
+  font-size: 1.5em; /* Aumenta el tamaño de h3 */
+  color: #b81d10; /* Rojo UNAB */
+  font-weight: bold;
+}
+
+/* Estilo para enlaces */
+.reveal a {
+  color: #b81d10;
+  text-decoration:
