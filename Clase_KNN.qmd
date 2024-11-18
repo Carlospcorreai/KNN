@@ -11,6 +11,15 @@ format:
 output-file: "index.html"  # Configuración para generar el archivo con nombre index.html
 ---
 
+## Objetivos de la Clase
+
+- **Comprender el funcionamiento del algoritmo k-NN** y sus aplicaciones en clasificación y regresión.
+- **Analizar las ventajas y desventajas** del algoritmo k-NN en distintos contextos.
+- **Aprender a calcular distancias** entre observaciones utilizando diferentes métricas.
+- **Aplicar el algoritmo k-NN en un ejemplo práctico**, interpretando los resultados obtenidos.
+
+---
+
 ## Recordemos...
 
 ![Proceso de Data Mining](proceso_DM.png)
@@ -359,5 +368,15 @@ El algoritmo **k-vecinos más cercanos (k-NN)** es uno de los más populares par
   - Predecir si un paciente, hospitalizado debido a un infarto, tendrá un segundo infarto.
   - Estimar la cantidad de glucosa en la sangre de una persona diabética, a partir del espectro de absorción infrarroja de la sangre de esa persona.
   - Identificar los factores de riesgo de cáncer de próstata, basándose en datos clínicos y variables demográficas.
+
+---
+
+## Conclusiones
+
+- El **algoritmo k-NN** es una herramienta sencilla y efectiva para tareas de **clasificación y regresión**.
+- La **elección del valor de k** es crucial y debe seleccionarse cuidadosamente para equilibrar sesgo y varianza.
+- Es esencial **preprocesar los datos**, incluyendo la normalización o estandarización de las características para mejorar el rendimiento del modelo.
+- Aunque es fácil de implementar, **k-NN puede ser computacionalmente costoso** en conjuntos de datos grandes y es sensible a la dimensionalidad.
+- Comprender las **ventajas y limitaciones** del algoritmo permite aplicarlo de manera más efectiva en diferentes contextos y problemas.
 
 ---
